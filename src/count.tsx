@@ -5,7 +5,7 @@ setup(h);
 
 const Component = (props: { cnt: number; className?: string }) => {
   return (
-    <div className={props.className}>
+    <div className={props.className} key={props.cnt}>
       <span>cnt: {props.cnt}</span>
     </div>
   );
