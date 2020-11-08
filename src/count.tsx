@@ -1,7 +1,5 @@
 import { h } from "preact";
-import { setup, styled } from "goober";
-
-setup(h);
+import { styled } from "goober";
 
 const Component = (props: { cnt: number; className?: string }) => {
   return (
