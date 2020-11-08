@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/ojisan-toybox/detect-rerender-animation#readme",
   "dependencies": {
+    "goober": "^2.0.13",
     "preact": "^10.5.5"
   },
   "devDependencies": {
